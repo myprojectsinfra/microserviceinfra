@@ -1,5 +1,5 @@
 variable "subscription_id" {
-  type = "string"
+  type = string
 }
 variable "resource_groups" {
   type = map(object({
